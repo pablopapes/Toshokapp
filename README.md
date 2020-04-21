@@ -1,4 +1,10 @@
-Repo for YT series: https://www.youtube.com/watch?v=rkZEWuMRY28&list=PLTXFz3WKxvNJq8OFqDnmTmrBO9S2DfS7O
+## DEMO (Work in progress):
+
+https://machieajones.github.io/spotify-ui-reactjs/#/
+
+## Repo for YT series:
+
+https://www.youtube.com/watch?v=rkZEWuMRY28&list=PLTXFz3WKxvNJq8OFqDnmTmrBO9S2DfS7O
 
 ## Background
 
