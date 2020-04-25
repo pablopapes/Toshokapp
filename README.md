@@ -1,4 +1,4 @@
-## DEMO (Work in progress):
+## DEMO (Work in progress)
 
 https://machieajones.github.io/spotify-ui-reactjs/#/
 
