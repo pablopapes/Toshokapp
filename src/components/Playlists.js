@@ -2,7 +2,7 @@ import React from 'react'
 import { ReactComponent as PlayIcon } from '../svgs/play.svg'
 import { Link } from 'react-router-dom'
 
-const Playlists = (props) => {
+const Playlists = props => {
   const dataPlaylists = [
     {
       id: 101,
@@ -18,6 +18,86 @@ const Playlists = (props) => {
       name: 'Home playlist 2',
       img:
         'https://images.unsplash.com/photo-1587151711096-23c51f92c920?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
+      desc: 'Lorem ipsum',
+    },
+    {
+      id: 103,
+      category_id: 3,
+      name: 'Home playlist 3',
+      img:
+        'https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80',
       desc: 'Lorem ipsum',
     },
     {
@@ -63,13 +143,13 @@ const Playlists = (props) => {
   ]
 
   const matchedPlaylists = dataPlaylists.filter(
-    (playlist) => playlist.category_id === props.category_id
+    playlist => playlist.category_id === props.category_id
   )
 
   return (
     <div className="cardsWrapInner">
       {matchedPlaylists.map((playlist, id) => (
-        <Link to={`/playlist/` + playlist.id}>
+        <Link to={`/playlist/` + playlist.id} key={id}>
           <div className="card" key={id}>
             <div className="cardImage">
               <img src={playlist.img} alt="Pic 1" />

@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <div className="navBar">
       <div className="logo">
-        <svg viewBox="0 0 1134 340" class="spotify-logo--text">
+        <svg viewBox="0 0 1134 340" className="spotify-logo--text">
           <title>Spotify</title>
           <path
             fill="white"
