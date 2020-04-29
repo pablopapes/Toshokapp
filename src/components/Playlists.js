@@ -3,6 +3,7 @@ import { ReactComponent as PlayIcon } from '../svgs/play.svg'
 import { Link } from 'react-router-dom'
 
 const Playlists = props => {
+  console.log(props.limiter)
   const dataPlaylists = [
     {
       id: 101,
@@ -142,9 +143,9 @@ const Playlists = props => {
     },
   ]
 
-  const matchedPlaylists = dataPlaylists.filter(
-    playlist => playlist.category_id === props.category_id
-  )
+  let matchedPlaylists = dataPlaylists
+    .filter(playlist => playlist.category_id === props.category_id)
+    .slice(0, props.limiter)
 
   return (
     <div className="cardsWrapInner">
