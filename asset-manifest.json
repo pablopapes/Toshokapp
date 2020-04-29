@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/spotify-ui-reactjs/static/css/main.d9d34665.chunk.css",
-    "main.js": "/spotify-ui-reactjs/static/js/main.805cd0b1.chunk.js",
-    "main.js.map": "/spotify-ui-reactjs/static/js/main.805cd0b1.chunk.js.map",
+    "main.css": "/spotify-ui-reactjs/static/css/main.349d3fbe.chunk.css",
+    "main.js": "/spotify-ui-reactjs/static/js/main.49455d29.chunk.js",
+    "main.js.map": "/spotify-ui-reactjs/static/js/main.49455d29.chunk.js.map",
     "runtime-main.js": "/spotify-ui-reactjs/static/js/runtime-main.86bb7061.js",
     "runtime-main.js.map": "/spotify-ui-reactjs/static/js/runtime-main.86bb7061.js.map",
-    "static/js/2.1995cdde.chunk.js": "/spotify-ui-reactjs/static/js/2.1995cdde.chunk.js",
-    "static/js/2.1995cdde.chunk.js.map": "/spotify-ui-reactjs/static/js/2.1995cdde.chunk.js.map",
+    "static/js/2.ed5f494e.chunk.js": "/spotify-ui-reactjs/static/js/2.ed5f494e.chunk.js",
+    "static/js/2.ed5f494e.chunk.js.map": "/spotify-ui-reactjs/static/js/2.ed5f494e.chunk.js.map",
     "index.html": "/spotify-ui-reactjs/index.html",
-    "precache-manifest.7ba5efb23865357395a3b9d2be7b7733.js": "/spotify-ui-reactjs/precache-manifest.7ba5efb23865357395a3b9d2be7b7733.js",
+    "precache-manifest.0cc31f7ed3878eec074c00dd83345ab1.js": "/spotify-ui-reactjs/precache-manifest.0cc31f7ed3878eec074c00dd83345ab1.js",
     "service-worker.js": "/spotify-ui-reactjs/service-worker.js",
-    "static/css/main.d9d34665.chunk.css.map": "/spotify-ui-reactjs/static/css/main.d9d34665.chunk.css.map",
-    "static/js/2.1995cdde.chunk.js.LICENSE.txt": "/spotify-ui-reactjs/static/js/2.1995cdde.chunk.js.LICENSE.txt",
+    "static/css/main.349d3fbe.chunk.css.map": "/spotify-ui-reactjs/static/css/main.349d3fbe.chunk.css.map",
+    "static/js/2.ed5f494e.chunk.js.LICENSE.txt": "/spotify-ui-reactjs/static/js/2.ed5f494e.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/spotify-ui-reactjs/static/media/CircularStd-Book.6365c40a.otf",
     "static/media/heart.9834a799.svg": "/spotify-ui-reactjs/static/media/heart.9834a799.svg",
     "static/media/home.3005871a.svg": "/spotify-ui-reactjs/static/media/home.3005871a.svg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.86bb7061.js",
-    "static/js/2.1995cdde.chunk.js",
-    "static/css/main.d9d34665.chunk.css",
-    "static/js/main.805cd0b1.chunk.js"
+    "static/js/2.ed5f494e.chunk.js",
+    "static/css/main.349d3fbe.chunk.css",
+    "static/js/main.49455d29.chunk.js"
   ]
 }
