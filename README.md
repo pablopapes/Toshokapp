@@ -18,6 +18,6 @@ Hope you enjoy and learn something!
 
 Sidenote: If you spot anything that I can improve, please feel free to contribute and I will feature in the YT series.
 
-### `npm start`
+### `npm install && npm start`
 
 To run the application
